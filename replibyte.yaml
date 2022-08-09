@@ -1,0 +1,6 @@
+encryption_key: $ENCRYPTION_KEY
+source:
+  connection_uri: $DATABASE_URL
+datastore:
+  local_disk:
+    dir: /tmp/replibyte
